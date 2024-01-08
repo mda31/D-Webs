@@ -102,11 +102,11 @@ border-radius:30px;
                 Email.send({
     Host : "smtp.gmail.com",
     Username : "mohameddiaaatiaa@gmail.com",
-    Password : "Mohamed*123",
+    Password : "D85792C8CB801F3EE8CF76B01953F94CE1FD",
     To : 'mohameddiaaatiaa@gmail.com',
     From : document.getElementById("email").value,
     Subject : "New contact",
-    Body : "Body"
+    Body : getElementById("message").value
 }).then(
   message => alert(message)
 );
